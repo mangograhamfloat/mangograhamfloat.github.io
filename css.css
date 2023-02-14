@@ -1,3 +1,10 @@
+* {
+    border: 0px solid grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24pt;
+}
+
+
 body {
     margin: 0px;    
     display: flex;
@@ -7,6 +14,12 @@ body {
 .navbar{
     background-color: #FFD23F;
     display: flex;
-    flex-direction: row;
-    padding: 10px;
+    padding: 15px 0px 15px 60px;
+    align-items: center;
 }
+
+.logo {
+    height: 85px;
+    padding: 0px 30px 0px 0px;
+}
+
