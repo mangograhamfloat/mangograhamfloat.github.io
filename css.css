@@ -1,0 +1,12 @@
+body {
+    margin: 0px;    
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    background-color: #FFD23F;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
