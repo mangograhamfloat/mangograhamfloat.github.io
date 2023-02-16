@@ -1,25 +1,89 @@
 * {
-    border: 0px solid grey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24pt;
+    border: 1px solid grey;
+    font-family: Tahoma, Geneva, Verdana, sans-serif
 }
-
 
 body {
-    margin: 0px;    
-    display: flex;
-    flex-direction: column;
+    margin: 0;
 }
 
-.navbar{
-    background-color: #FFD23F;
+
+
+/* GRADIENT */
+.gradient{
+    background-image: linear-gradient(to bottom, #FFD23F, white);
+    padding: 0rem 7rem 0rem 7rem;
+    height: 60rem;
+}
+
+
+
+/* NAVBAR */
+.navbar {
+    padding: 0.5rem 0rem 0.5rem 0rem;
     display: flex;
-    padding: 15px 0px 15px 60px;
-    align-items: center;
+    justify-content: space-between;
+    font-size: 14pt;
+    color:#403500;
 }
 
 .logo {
-    height: 85px;
-    padding: 0px 30px 0px 0px;
+    height: 60px;
+    width: auto;
 }
 
+.title {
+    font-size: 20pt;
+    letter-spacing: 0.02rem;
+    font-weight: bold;
+    margin: 0.8rem 0rem 0rem 0rem;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    
+}
+.navbar ul li {
+    display: inline;
+    font-size: 12pt;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+
+/* FIRST */
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first img {
+    width: 400px;
+    height: auto;
+    margin: 50px
+}
+
+.firstleft{
+    margin: 50px;
+}
+
+.tagline {
+    font-size: 60pt;
+    margin: 0rem 0rem 1rem 0rem;
+    color: #A88E02;
+    font-weight: bold;
+}
+
+.ordernow{
+    background-color: #BB9D01;
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    border: 0px;
+    border-radius: 7px;
+    letter-spacing: 0.15rem;
+}
